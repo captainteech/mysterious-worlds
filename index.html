@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Roleplay Mods Every Minecraft Fan Should Try in 2026</title>
+    <meta name="description" content="Discover the top roleplay mods every Minecraft fan should try in 2026. Explore immersive mods that add story depth, interactive NPCs, and evolving gameplay.">
+    <link rel="canonical" href="https://example.com/top-minecraft-roleplay-mods">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://example.com/top-minecraft-roleplay-mods">
+    <meta property="og:title" content="Top Roleplay Mods Every Minecraft Fan Should Try in 2026">
+    <meta property="og:description" content="Discover the most immersive Minecraft roleplay mods of 2026, featuring character depth and evolving narratives.">
+    <meta property="og:image" content="https://example.com/images/roleplay-mods-banner.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://example.com/top-minecraft-roleplay-mods">
+    <meta property="twitter:title" content="Top Roleplay Mods Every Minecraft Fan Should Try in 2026">
+    <meta property="twitter:description" content="Discover the most immersive Minecraft roleplay mods of 2026.">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Top Roleplay Mods Every Minecraft Fan Should Try",
+        "description": "Discover the most immersive Minecraft roleplay mods of 2026, featuring character depth and evolving narratives.",
+        "author": { 
+            "@type": "Organization", 
+            "name": "Legends of Modding" 
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Minecraft Roleplay Institute",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://example.com/logo.png"
+            }
+        },
+        "datePublished": "2026-12-26",
+        "dateModified": "2026-12-26",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://example.com/top-minecraft-roleplay-mods"
+        }
+    }
+    </script>
+
+    <!-- Fonts: Cinzel for headers, Cormorant for story text -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,700;1,500;1,700&family=MedievalSharp&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --parchment: #f4ecd8;
+            --gold: #d4af37;
+            --crimson: #800000;
+            --royal-blue: #002366;
+            --deep-forest: #0a120a;
+            --ink: #2b2621;
+            --candle-glow: rgba(255, 180, 50, 0.2);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background-color: var(--deep-forest);
+            color: var(--ink);
+            font-family: 'Cormorant Garamond', serif;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 50% 0%, #1a2a1a 0%, transparent 70%),
+                url('https://www.transparenttextures.com/patterns/dark-wood.png');
+        }
+
+        /* --- 1. HERO SECTION (.search-header) --- */
+        .search-header {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            background: linear-gradient(to bottom, rgba(0,0,0,0.8), transparent), url('https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80&w=2000') center/cover;
+            text-align: center;
+            padding: 2rem;
+            box-shadow: inset 0 0 200px #000;
+        }
+
+        .hero-glow {
+            position: absolute;
+            width: 100%; height: 100%;
+            background: radial-gradient(circle, var(--candle-glow) 0%, transparent 60%);
+            animation: flicker 4s ease-in-out infinite;
+        }
+
+        @keyframes flicker { 0%, 100% { opacity: 0.3; } 50% { opacity: 0.7; } }
+
+        .main-title {
+            font-family: 'Cinzel', serif;
+            font-size: clamp(2.5rem, 6vw, 5rem);
+            color: #fff;
+            text-shadow: 0 0 20px var(--gold), 4px 4px 10px #000;
+            z-index: 2;
+            line-height: 1;
+            margin-bottom: 2rem;
+        }
+
+        .hero-panel {
+            background: var(--parchment);
+            padding: 1.5rem 3rem;
+            border: 4px double var(--gold);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            z-index: 2;
+            position: relative;
+            max-width: 800px;
+            transform: rotate(-1deg);
+        }
+
+        .hero-panel p { font-size: 1.4rem; font-style: italic; font-weight: 700; }
+
+        .btn-quest {
+            margin-top: 3rem;
+            padding: 1.2rem 3rem;
+            background: var(--crimson);
+            color: var(--gold);
+            text-decoration: none;
+            font-family: 'Cinzel', serif;
+            font-weight: 900;
+            border: 2px solid var(--gold);
+            box-shadow: 0 0 15px var(--crimson);
+            transition: 0.3s;
+            z-index: 5;
+        }
+
+        .btn-quest:hover { background: var(--gold); color: var(--crimson); transform: scale(1.1); box-shadow: 0 0 30px var(--gold); }
+
+        .ember {
+            position: absolute; width: 4px; height: 4px; background: var(--gold);
+            border-radius: 50%; opacity: 0; pointer-events: none;
+            animation: rise 5s infinite;
+        }
+        @keyframes rise {
+            0% { transform: translateY(100vh) scale(1); opacity: 0; }
+            50% { opacity: 0.8; }
+            100% { transform: translateY(-100px) scale(0); opacity: 0; }
+        }
+
+        /* --- 2. WORLD INTRODUCTION (.research-process) --- */
+        .research-process {
+            padding: 10rem 2rem;
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+
+        .book-page {
+            background: var(--parchment);
+            max-width: 900px;
+            padding: 6rem;
+            position: relative;
+            box-shadow: 20px 20px 60px rgba(0,0,0,0.5);
+            border: 1px solid rgba(0,0,0,0.1);
+        }
+
+        .book-page::before {
+            content: ""; position: absolute; left: 0; top: 0; width: 100%; height: 100%;
+            background-image: url('https://www.transparenttextures.com/patterns/handmade-paper.png');
+            opacity: 0.4; pointer-events: none;
+        }
+
+        .drop-cap::first-letter {
+            float: left;
+            font-family: 'Cinzel', serif;
+            font-size: 5.5rem;
+            line-height: 0.8;
+            padding: 10px 15px 0 0;
+            color: var(--crimson);
+            font-weight: 900;
+        }
+
+        .intro-text p { font-size: 1.4rem; margin-bottom: 2rem; text-align: justify; }
+
+        .divider {
+            height: 40px;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 20" preserveAspectRatio="none"><path d="M0,10 Q25,0 50,10 T100,10" fill="none" stroke="%23d4af37" stroke-width="2"/></svg>') repeat-x;
+            margin: 3rem 0; opacity: 0.6;
+        }
+
+        /* --- 3. MOD SHOWCASE (.comparison-section) --- */
+        .comparison-section {
+            padding: 5rem 2rem;
+            background: rgba(0,0,0,0.3);
+        }
+
+        .quest-scroll {
+            background: #e8dfc5;
+            max-width: 800px;
+            margin: 0 auto 4rem;
+            padding: 3rem;
+            border-left: 15px solid var(--gold);
+            border-right: 15px solid var(--gold);
+            position: relative;
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            gap: 2rem;
+            box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+            transition: 0.4s;
+        }
+
+        .quest-scroll:hover { transform: translateX(20px); box-shadow: -10px 10px 40px var(--candle-glow); }
+
+        .mod-frame {
+            width: 200px; height: 200px;
+            border: 8px ridge var(--gold);
+            background: var(--ink);
+            display: flex; align-items: center; justify-content: center;
+            font-family: 'MedievalSharp'; color: var(--gold);
+        }
+
+        .mod-title { font-family: 'Cinzel', serif; font-size: 1.8rem; color: var(--crimson); margin-bottom: 1rem; }
+
+        .anchor-link {
+            color: var(--royal-blue);
+            text-decoration: none;
+            font-weight: 900;
+            border-bottom: 2px solid var(--gold);
+        }
+
+        /* --- 4. ROLEPLAY CATEGORIES (.research-dashboard) --- */
+        .research-dashboard {
+            padding: 10rem 2rem;
+            text-align: center;
+        }
+
+        .cat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 4rem auto;
+        }
+
+        .emblem-tile {
+            background: rgba(255,255,255,0.05);
+            padding: 3rem 1rem;
+            border: 2px solid var(--gold);
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            transition: 0.3s;
+            display: flex; flex-direction: column; align-items: center;
+        }
+
+        .emblem-tile:hover { background: var(--crimson); transform: rotateY(180deg); }
+        .emblem-tile span { font-family: 'Cinzel', serif; font-weight: 700; color: var(--gold); margin-top: 1rem; font-size: 0.9rem; }
+
+        /* --- 5. STORY PATH (Rune Trail) --- */
+        .story-path {
+            padding: 10rem 2rem;
+            background: linear-gradient(to bottom, transparent, #000);
+            text-align: center;
+        }
+
+        .rune-trail {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1000px;
+            margin: 6rem auto;
+            position: relative;
+        }
+
+        .rune-trail::before {
+            content: ""; position: absolute; top: 30px; left: 0; width: 100%; height: 2px;
+            background: linear-gradient(to right, transparent, var(--gold), transparent);
+            box-shadow: 0 0 15px var(--gold);
+        }
+
+        .milestone { position: relative; z-index: 2; width: 150px; }
+
+        .crest {
+            width: 60px; height: 60px; background: #000; border: 2px solid var(--gold);
+            border-radius: 50%; margin: 0 auto 20px; display: flex; align-items: center;
+            justify-content: center; color: var(--gold); font-family: 'MedievalSharp';
+            box-shadow: 0 0 10px var(--gold);
+        }
+
+        /* --- 6. FEATURED HIGHLIGHT --- */
+        .highlight-banner {
+            padding: 15rem 2rem;
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?auto=format&fit=crop&q=80&w=2000');
+            background-attachment: fixed;
+            border-top: 5px solid var(--gold);
+            border-bottom: 5px solid var(--gold);
+            text-align: center;
+        }
+
+        .golden-frame {
+            border: 15px solid;
+            border-image: linear-gradient(var(--gold), #554400, var(--gold)) 1;
+            padding: 4rem;
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(0,0,0,0.6);
+        }
+
+        /* --- 7. CONCLUSION (.conclusion) --- */
+        .conclusion {
+            padding: 15rem 2rem;
+            text-align: center;
+            position: relative;
+        }
+
+        .portal {
+            width: 300px; height: 300px; border-radius: 50%;
+            margin: 0 auto 3rem;
+            border: 8px solid var(--gold);
+            box-shadow: 0 0 50px var(--gold), inset 0 0 50px var(--gold);
+            background: radial-gradient(circle, var(--royal-blue) 0%, transparent 70%);
+            animation: rotate 20s linear infinite;
+        }
+        @keyframes rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+
+        /* --- 8. FOOTER (.footer) --- */
+        .footer {
+            padding: 4rem;
+            border-top: 1px solid var(--gold);
+            text-align: center;
+            font-family: 'Cinzel', serif;
+            color: var(--gold);
+            font-size: 0.8rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        /* --- RESPONSIVE --- */
+        @media (max-width: 900px) {
+            .quest-scroll { grid-template-columns: 1fr; text-align: center; }
+            .mod-frame { margin: 0 auto; }
+            .rune-trail { flex-direction: column; gap: 5rem; }
+            .rune-trail::before { left: 50%; top: 0; width: 2px; height: 100%; }
+            .book-page { padding: 2rem; }
+            .main-title { font-size: 2.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. HERO SECTION -->
+    <header class="search-header">
+        <div class="hero-glow"></div>
+        <div class="ember" style="left: 10%; animation-delay: 0s;"></div>
+        <div class="ember" style="left: 30%; animation-delay: 2s;"></div>
+        <div class="ember" style="left: 70%; animation-delay: 1s;"></div>
+        <div class="ember" style="left: 90%; animation-delay: 3s;"></div>
+
+        <h1 class="main-title">Top Roleplay Mods <br>For Minecraft fans</h1>
+        <div class="hero-panel">
+            <p>Every Legend Begins with a Single Decision.</p>
+        </div>
+        <a href="#codex" class="btn-quest">Begin Your Story</a>
+    </header>
+
+    <!-- 2. WORLD INTRODUCTION (.research-process) -->
+    <main class="research-process" id="codex">
+        <article class="book-page">
+            <div class="intro-text">
+                <p class="drop-cap">
+                    Minecraft has always given players the tools to create their own stories, but in 2026, roleplay mods are taking that freedom much further. Instead of imagining narratives on your own, today’s most popular roleplay mods actively support storytelling with evolving characters, interactive systems, and worlds that respond to player decisions. These mods turn ordinary survival sessions into living adventures where every action can shape the outcome.
+                </p>
+                <div class="divider"></div>
+                <p>
+                    Roleplay-focused mods stand out because they prioritize immersion. They introduce believable companions, structured questlines, and emotional depth that encourage players to step into a role rather than simply collect resources. Whether you prefer heroic journeys, mysterious worlds, or relationship-driven gameplay, the current generation of mods offers something far beyond basic sandbox mechanics.
+                </p>
+            </div>
+        </article>
+    </main>
+
+    <!-- 3. MOD SHOWCASE (.comparison-section) -->
+    <section class="comparison-section">
+        <div class="quest-scroll">
+            <div class="mod-frame">NPC CORE</div>
+            <div>
+                <h2 class="mod-title">Intelligent Souls</h2>
+                <p>One of the defining features of modern roleplay mods is intelligent NPC behavior. Instead of static villagers repeating the same lines, players encounter characters that react, adapt, and unlock new interactions over time. Communities connected to projects featured through <strong><a href="https://jennymod.mx/" class="anchor-link">jennymod.mx</a></strong> have shown how strong character design can transform Minecraft into an RPG experience.</p>
+            </div>
+        </div>
+
+        <div class="quest-scroll">
+            <div class="mod-frame">QUESTS</div>
+            <div>
+                <h2 class="mod-title">Layered Progression</h2>
+                <p>Players can develop reputations, build alliances, and gain access to abilities or story arcs tied directly to how they interact with the world. This creates a sense of continuity often missing from traditional sandbox play. Your world feels less temporary and more like a long-term narrative space.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. ROLEPLAY CATEGORIES (.research-dashboard) -->
+    <section class="research-dashboard">
+        <h2 style="font-family: 'Cinzel'; color: var(--gold); font-size: 2.5rem;">Choose Your Path</h2>
+        <div class="cat-grid">
+            <div class="emblem-tile">🛡️ <span>Kingdoms</span></div>
+            <div class="emblem-tile">🎓 <span>School Life</span></div>
+            <div class="emblem-tile">⚔️ <span>Survival</span></div>
+            <div class="emblem-tile">⚡ <span>Superheroes</span></div>
+            <div class="emblem-tile">🧙 <span>Fantasy</span></div>
+            <div class="emblem-tile">🏙️ <span>City Life</span></div>
+        </div>
+    </section>
+
+    <!-- 5. STORY PATH -->
+    <section class="story-path">
+        <div class="rune-trail">
+            <div class="milestone">
+                <div class="crest">ᛟ</div>
+                <h3 style="color: var(--gold);">World Building</h3>
+                <p style="color: #888; font-size: 0.9rem;">Custom structures and lore-driven biomes rewarding exploration.</p>
+            </div>
+            <div class="milestone">
+                <div class="crest">ᚦ</div>
+                <h3 style="color: var(--gold);">Character Identity</h3>
+                <p style="color: #888; font-size: 0.9rem;">Craft identities that influence how the world responds.</p>
+            </div>
+            <div class="milestone">
+                <div class="crest">ᚹ</div>
+                <h3 style="color: var(--gold);">Technical Polish</h3>
+                <p style="color: #888; font-size: 0.9rem;">Mods integrate smoothly without sacrificing stability.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. FEATURED HIGHLIGHT -->
+    <section class="highlight-banner">
+        <div class="golden-frame">
+            <h2 style="font-family: 'Cinzel'; color: var(--gold); font-size: 2.5rem; margin-bottom: 2rem;">The Future of Minecraft</h2>
+            <p style="font-size: 1.4rem; font-style: italic; color: #fff;">
+                Ultimately, roleplay mods represent the future of Minecraft for many fans. They preserve the game’s creative foundation while adding meaning, direction, and emotional engagement. For players who want more than survival objectives, these mods open the door to unforgettable journeys shaped by choice, connection, and imagination.
+            </p>
+        </div>
+    </section>
+
+    <!-- 7. CONCLUSION (.conclusion) -->
+    <section class="conclusion">
+        <div class="portal"></div>
+        <h2 style="font-family: 'Cinzel'; color: #fff; font-size: 3rem; margin-bottom: 2rem;">Write Your Own Story</h2>
+        <p style="max-width: 800px; margin: 0 auto 3rem; font-size: 1.5rem; color: #ccc;">
+            As the modding scene continues to grow, roleplay experiences are becoming richer, smarter, and more accessible. Exploring the top roleplay mods today is about discovering new ways to live inside the worlds you create.
+        </p>
+        <a href="#" class="btn-quest">Start Your Roleplay Journey</a>
+    </section>
+
+    <!-- 8. FOOTER (.footer) -->
+    <footer class="footer">
+        <p>&copy; 2026 LEGENDS OF MODDING // ROLEPLAY CHRONICLES // MINECRAFT RPG MODS</p>
+    </footer>
+
+</body>
+</html>
